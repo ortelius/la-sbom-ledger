@@ -75,6 +75,7 @@ As we move into more complex cloud-native systems, a level of microservice gover
 The Application SBOM Ledger will extend SBOMs created at the low-level packaging stage of the microservice build step. It consumes outputs from many different build lifecycles, making an application's logical view.  
 
 *Component Software Build Lifecycle*
+
 ![Component Software Build Lifecycle   ](SLSA.png)
 
 
@@ -94,6 +95,7 @@ Software Bill of Material (SBOM) consists of data from D, E, F, and G.  These SB
 Items A, B, C are generated using the Ortelius Open Source project. The generation step is triggered upon completion of the Component Software Build Lifecycle.
 
 *Single Logical Application SBOM*
+
 ![Single Logical Application SBOM](lasbom.png)
 
 A single version of a Logical Application SBOM (LA SBOM) is an immutable snapshot of the dependencies and metadata. This LA SBOM version is represented as a non-fungible token (NTF).
