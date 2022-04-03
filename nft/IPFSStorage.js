@@ -6,8 +6,6 @@ const token =
 
 class IPFSStorage {
 	constructor(token, endpoint = 'https://api.nft.storage') {
-		this.token = token
-		this.endpoint = endpoint
         this.storage = new NFTStorage({ endpoint, token })
 	}
 
