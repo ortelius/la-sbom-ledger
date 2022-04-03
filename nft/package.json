@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "nft.storage": "^6.1.0"
+    "nft.storage": "^6.1.0",
+    "xrpl": "^2.1.1"
   }
 }
