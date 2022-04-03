@@ -59,12 +59,6 @@ class XRPLedger {
 
 		return tokens
 	}
-
-	async getWallet() {
-		const wallet = xrpl.Wallet.fromSeed(wallet.secret)
-
-		return wallet
-	}
 }
 
 module.exports = new XRPLedger()
