@@ -1,4 +1,5 @@
 const dotenv = require('dotenv')
+const path = require('path')
 const util = require('util')
 const ipfsStorage = require('./IPFSStorage')
 const xrpledger = require('./XRPLedger')
@@ -7,7 +8,10 @@ dotenv.config()
 
 async function main() {
 	try {
-		const { cid } = await ipfsStorage.upload('./example.json')
+
+		const pathToFile = path.resolve(__dirname, 'example.json')
+
+		const { cid } = await ipfsStorage.upload(pathToFile)
 
 		const { ipfsUrl } = await ipfsStorage.retrieve(cid)
 
