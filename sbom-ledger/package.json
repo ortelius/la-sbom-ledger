@@ -1,0 +1,46 @@
+{
+  "name": "xrpl-nft-creator",
+  "version": "1.0.0",
+  "description": "Proof Of Concept for NFT token for the XRP ledger, ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ortelius/la-sbom-ledger"
+  },
+  "keywords": [
+    "nft",
+    "xrp",
+    "ipfs"
+  ],
+  "author": "Utkarsh Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ortelius/la-sbom-ledger/issues"
+  },
+  "homepage": "https://github.com/ortelius/la-sbom-ledger#readme",
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
+    "ipfs-core": "^0.7.1",
+    "ipfs-only-hash": "^4.0.0",
+    "js-yaml": "^4.1.0",
+    "json-colorizer": "^2.2.2",
+    "nunjucks": "^3.2.3",
+    "open": "^8.2.0",
+    "prompt-sync": "^4.2.0",
+    "ripple-lib": "^1.9.5",
+    "winston": "^3.3.3",
+    "xrpl-tagged-address-codec": "^0.2.1",
+    "dotenv": "^16.0.0",
+    "nft.storage": "^6.1.0",
+    "xrpl": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-strongloop": "^2.1.0"
+  }
+}
