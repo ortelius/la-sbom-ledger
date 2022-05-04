@@ -1,0 +1,555 @@
+2022-05-01 17:27:01 [info]: 	starting IPFS node for content distribution 
+2022-05-01 17:27:01 [info]: 	[object Object] 
+2022-05-01 17:28:27 [info]: 	starting IPFS node for content distribution 
+2022-05-01 17:28:27 [info]: 	[object Object] 
+2022-05-01 17:28:27 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651426107354 
+2022-05-01 17:28:27 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651426107354' 
+2022-05-01 17:28:27 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651426107354' 
+2022-05-01 17:28:27 [info]: 	 
+2022-05-01 17:28:27 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-01 17:28:27 [info]: 	adding '/example1651426107354/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-01 17:28:27 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-01 17:28:29 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-01 17:45:22 [info]: 	starting IPFS node for content distribution 
+2022-05-01 17:45:22 [info]: 	[object Object] 
+2022-05-01 17:45:22 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427122420 
+2022-05-01 17:45:22 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427122420' 
+2022-05-01 17:45:22 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427122420' 
+2022-05-01 17:45:22 [info]: 	 
+2022-05-01 17:45:22 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-01 17:45:22 [info]: 	adding '/example1651427122420/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-01 17:45:22 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-01 17:45:24 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-01 17:47:04 [info]: 	starting IPFS node for content distribution 
+2022-05-01 17:47:04 [info]: 	[object Object] 
+2022-05-01 17:47:04 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427224228 
+2022-05-01 17:47:04 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427224228' 
+2022-05-01 17:47:04 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427224228' 
+2022-05-01 17:47:04 [info]: 	 
+2022-05-01 17:47:04 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-01 17:47:04 [info]: 	adding '/example1651427224228/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-01 17:47:04 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-01 17:47:08 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-01 17:48:49 [info]: 	starting IPFS node for content distribution 
+2022-05-01 17:48:49 [info]: 	[object Object] 
+2022-05-01 17:48:49 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427329899 
+2022-05-01 17:48:49 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427329899' 
+2022-05-01 17:48:49 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427329899' 
+2022-05-01 17:48:49 [info]: 	 
+2022-05-01 17:48:49 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-01 17:48:49 [info]: 	adding '/example1651427329899/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-01 17:48:49 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-01 17:48:51 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-01 17:48:51 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-01 17:48:51 [info]: 	 
+2022-05-01 17:48:51 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427329899/meta.json 
+2022-05-01 17:48:51 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651427329899 
+2022-05-01 17:48:51 [info]: 	 
+2022-05-01 17:48:51 [info]: 	object 
+2022-05-01 17:49:04 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-01 17:49:04 [info]: 	 
+2022-05-01 17:49:04 [warn]: 	YOU MUST FUND THE NFT ADDRESS w/ 20+ XRP (CLASSIC): 'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' (XADDRESS): 'XVVwrKsPXieZ6fLbn6pMiU9fYjoiwGNFkwrwE68tdRVLhhQ' 
+2022-05-01 17:49:04 [warn]: 	validation completed, wallet rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu is funded 
+2022-05-01 17:49:04 [info]: 	Domain value: 
+@xnft:
+ipfs:bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee
+http:nft.xrpfs.com
+Value size: 91 of 256 bytes used 
+2022-05-01 17:49:04 [info]: 	Domain value in hex: 40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A 
+2022-05-01 17:49:04 [info]: 	Attempting to set rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu Domain field with resource settings... 
+2022-05-01 17:49:05 [debug]: 	attempting submition of transaction: {"TransactionType":"AccountSet","Account":"rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu","Fee":"12","Sequence":26952154,"SetFlag":5,"Domain":"40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A"} 
+2022-05-01 17:49:05 [debug]: 	tentative message: The transaction was applied. Only final in a validated ledger. 
+2022-05-01 17:49:05 [info]: 	tx status code: tesSUCCESS , tx hash 82E2E9084FD6D7E866A53EB4A5F6053704BEF5D6058510DC015054B2D33C7E8E 
+2022-05-01 17:49:05 [info]: 	Validate your NFT data is live (IPFS)(Base Dir): ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-01 17:49:05 [info]: 	Validate your NFT base folder is live: https://gateway.ipfs.io/ipfs/bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee  
+2022-05-01 17:49:05 [info]: 	See your Testnet NFT wallet here: https://testnet.xrpl.org/accounts/rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu 
+2022-05-01 17:49:05 [info]: 	 
+2022-05-01 17:49:05 [warn]: 	Script is set to end in 30 minutes 
+2022-05-03 05:20:55 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:20:55 [info]: 	[object Object] 
+2022-05-03 05:20:55 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555255620 
+2022-05-03 05:20:55 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555255620' 
+2022-05-03 05:20:55 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555255620' 
+2022-05-03 05:20:55 [info]: 	 
+2022-05-03 05:20:55 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:20:55 [info]: 	adding '/example1651555255620/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:20:55 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:20:59 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:21:35 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:21:35 [info]: 	[object Object] 
+2022-05-03 05:21:35 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555295072 
+2022-05-03 05:21:35 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555295072' 
+2022-05-03 05:21:35 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555295072' 
+2022-05-03 05:21:35 [info]: 	 
+2022-05-03 05:21:35 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:21:35 [info]: 	adding '/example1651555295072/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:21:35 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:21:36 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:22:42 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:22:42 [info]: 	[object Object] 
+2022-05-03 05:22:42 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555362342 
+2022-05-03 05:22:42 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555362342' 
+2022-05-03 05:22:42 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555362342' 
+2022-05-03 05:22:42 [info]: 	 
+2022-05-03 05:22:42 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:22:42 [info]: 	adding '/example1651555362342/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:22:42 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:22:44 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:23:13 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:23:13 [info]: 	[object Object] 
+2022-05-03 05:23:13 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555393629 
+2022-05-03 05:23:13 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555393629' 
+2022-05-03 05:23:13 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555393629' 
+2022-05-03 05:23:13 [info]: 	 
+2022-05-03 05:23:13 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:23:13 [info]: 	adding '/example1651555393629/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:23:13 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:23:19 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:23:54 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:23:54 [info]: 	[object Object] 
+2022-05-03 05:23:54 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555434831 
+2022-05-03 05:23:54 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555434831' 
+2022-05-03 05:23:54 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555434831' 
+2022-05-03 05:23:54 [info]: 	 
+2022-05-03 05:23:54 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:23:54 [info]: 	adding '/example1651555434831/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:23:54 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:23:56 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:23:56 [error]: 	path is not defined 
+2022-05-03 05:25:20 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:25:20 [info]: 	[object Object] 
+2022-05-03 05:25:20 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555520755 
+2022-05-03 05:25:20 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555520755' 
+2022-05-03 05:25:20 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555520755' 
+2022-05-03 05:25:20 [info]: 	 
+2022-05-03 05:25:20 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:25:20 [info]: 	adding '/example1651555520755/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:25:20 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:25:22 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:25:22 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555520755/meta.json 
+2022-05-03 05:25:42 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:25:42 [info]: 	[object Object] 
+2022-05-03 05:25:42 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555542373 
+2022-05-03 05:25:42 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555542373' 
+2022-05-03 05:25:42 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555542373' 
+2022-05-03 05:25:42 [info]: 	 
+2022-05-03 05:25:42 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:25:42 [info]: 	adding '/example1651555542373/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:25:42 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:25:45 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:25:45 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555542373/meta.json 
+2022-05-03 05:25:45 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:25:45 [info]: 	 
+2022-05-03 05:25:45 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555542373 
+2022-05-03 05:25:45 [info]: 	 
+2022-05-03 05:25:45 [info]: 	object 
+2022-05-03 05:26:14 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 05:26:14 [info]: 	 
+2022-05-03 05:26:14 [warn]: 	YOU MUST FUND THE NFT ADDRESS w/ 20+ XRP (CLASSIC): 'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' (XADDRESS): 'XVVwrKsPXieZ6fLbn6pMiU9fYjoiwGNFkwrwE68tdRVLhhQ' 
+2022-05-03 05:26:14 [warn]: 	validation completed, wallet rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu is funded 
+2022-05-03 05:26:14 [info]: 	Domain value: 
+@xnft:
+ipfs:bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee
+http:nft.xrpfs.com
+Value size: 91 of 256 bytes used 
+2022-05-03 05:26:14 [info]: 	Domain value in hex: 40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A 
+2022-05-03 05:26:14 [info]: 	Attempting to set rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu Domain field with resource settings... 
+2022-05-03 05:26:15 [debug]: 	attempting submition of transaction: {"TransactionType":"AccountSet","Account":"rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu","Fee":"12","Sequence":26952155,"SetFlag":5,"Domain":"40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A"} 
+2022-05-03 05:26:15 [debug]: 	tentative message: The transaction was applied. Only final in a validated ledger. 
+2022-05-03 05:26:15 [info]: 	tx status code: tesSUCCESS , tx hash 95301CC6A67E805E749723E46902F95E8C8B408ADB274E6225EDBE85B8E5ED67 
+2022-05-03 05:26:15 [info]: 	Validate your NFT data is live (IPFS)(Base Dir): ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 05:26:15 [info]: 	Validate your NFT base folder is live: https://gateway.ipfs.io/ipfs/bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee  
+2022-05-03 05:26:15 [info]: 	See your Testnet NFT wallet here: https://testnet.xrpl.org/accounts/rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu 
+2022-05-03 05:26:15 [info]: 	 
+2022-05-03 05:26:15 [warn]: 	Script is set to end in 30 minutes 
+2022-05-03 05:26:59 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:26:59 [info]: 	[object Object] 
+2022-05-03 05:26:59 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555619343 
+2022-05-03 05:26:59 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555619343' 
+2022-05-03 05:26:59 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555619343' 
+2022-05-03 05:26:59 [info]: 	 
+2022-05-03 05:27:20 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:27:20 [info]: 	[object Object] 
+2022-05-03 05:27:20 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555640371 
+2022-05-03 05:27:20 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555640371' 
+2022-05-03 05:27:20 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555640371' 
+2022-05-03 05:27:20 [info]: 	 
+2022-05-03 05:27:20 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:28:43 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:28:43 [info]: 	[object Object] 
+2022-05-03 05:28:43 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555723376 
+2022-05-03 05:28:43 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555723376' 
+2022-05-03 05:28:43 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555723376' 
+2022-05-03 05:28:43 [info]: 	 
+2022-05-03 05:28:43 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:28:43 [info]: 	adding '/example1651555723376/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:28:43 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:28:45 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:28:45 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555723376/meta.json 
+2022-05-03 05:28:45 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:28:45 [info]: 	 
+2022-05-03 05:28:45 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651555723376 
+2022-05-03 05:28:45 [info]: 	 
+2022-05-03 05:28:45 [info]: 	object 
+2022-05-03 05:29:02 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 05:30:46 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:30:46 [info]: 	[object Object] 
+2022-05-03 05:31:36 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:31:36 [info]: 	[object Object] 
+2022-05-03 05:33:24 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:33:24 [info]: 	[object Object] 
+2022-05-03 05:33:24 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556004347 
+2022-05-03 05:33:24 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556004347' 
+2022-05-03 05:33:24 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556004347' 
+2022-05-03 05:33:24 [info]: 	 
+2022-05-03 05:33:24 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:33:24 [info]: 	adding '/example1651556004347/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:33:24 [error]: 	config is not defined 
+2022-05-03 05:35:05 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:35:05 [info]: 	[object Object] 
+2022-05-03 05:35:05 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556105576 
+2022-05-03 05:35:05 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556105576' 
+2022-05-03 05:35:05 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556105576' 
+2022-05-03 05:35:05 [info]: 	 
+2022-05-03 05:35:05 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:35:05 [info]: 	adding '/example1651556105576/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:35:05 [error]: 	Cannot read properties of undefined (reading 'xrp') 
+2022-05-03 05:36:25 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:36:25 [info]: 	[object Object] 
+2022-05-03 05:36:25 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556185368 
+2022-05-03 05:36:25 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556185368' 
+2022-05-03 05:36:25 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556185368' 
+2022-05-03 05:36:25 [info]: 	 
+2022-05-03 05:36:25 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:36:25 [info]: 	adding '/example1651556185368/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:36:25 [error]: 	Cannot read properties of undefined (reading 'xrp') 
+2022-05-03 05:37:51 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:37:51 [info]: 	[object Object] 
+2022-05-03 05:37:51 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556271460 
+2022-05-03 05:37:51 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556271460' 
+2022-05-03 05:37:51 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556271460' 
+2022-05-03 05:37:51 [info]: 	 
+2022-05-03 05:37:51 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:37:51 [info]: 	adding '/example1651556271460/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:37:51 [error]: 	Cannot read properties of undefined (reading 'xrp') 
+2022-05-03 05:38:10 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:38:10 [info]: 	[object Object] 
+2022-05-03 05:38:10 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556290498 
+2022-05-03 05:38:10 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556290498' 
+2022-05-03 05:38:10 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556290498' 
+2022-05-03 05:38:10 [info]: 	 
+2022-05-03 05:38:10 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:38:10 [info]: 	adding '/example1651556290498/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:38:10 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:38:12 [error]: 	GetXRPWalletAddress is not defined 
+2022-05-03 05:38:31 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:38:31 [info]: 	[object Object] 
+2022-05-03 05:38:31 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556311147 
+2022-05-03 05:38:31 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556311147' 
+2022-05-03 05:38:31 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556311147' 
+2022-05-03 05:38:31 [info]: 	 
+2022-05-03 05:38:31 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:38:31 [info]: 	adding '/example1651556311147/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:38:31 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:38:32 [error]: 	xAPI is not defined 
+2022-05-03 05:39:54 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:39:54 [info]: 	[object Object] 
+2022-05-03 05:39:54 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556394307 
+2022-05-03 05:39:54 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556394307' 
+2022-05-03 05:39:54 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556394307' 
+2022-05-03 05:39:54 [info]: 	 
+2022-05-03 05:39:54 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:39:54 [info]: 	adding '/example1651556394307/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:39:54 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:39:55 [error]: 	xAPI is not defined 
+2022-05-03 05:41:14 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:41:14 [info]: 	[object Object] 
+2022-05-03 05:41:14 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556474548 
+2022-05-03 05:41:14 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556474548' 
+2022-05-03 05:41:14 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556474548' 
+2022-05-03 05:41:14 [info]: 	 
+2022-05-03 05:41:14 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:41:14 [info]: 	adding '/example1651556474548/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:41:14 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:41:16 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:41:16 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:41:45 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:41:45 [info]: 	[object Object] 
+2022-05-03 05:41:45 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556505866 
+2022-05-03 05:41:45 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556505866' 
+2022-05-03 05:41:45 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556505866' 
+2022-05-03 05:41:45 [info]: 	 
+2022-05-03 05:41:45 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:41:45 [info]: 	adding '/example1651556505866/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:41:45 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:41:50 [error]: 	Error: connect() timed out after 5000 ms. If your internet connection is working, the rippled server may be blocked or inaccessible. You can also try setting the 'connectionTimeout' option in the RippleAPI constructor. 
+2022-05-03 05:42:00 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:42:00 [info]: 	[object Object] 
+2022-05-03 05:42:00 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556520480 
+2022-05-03 05:42:00 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556520480' 
+2022-05-03 05:42:00 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556520480' 
+2022-05-03 05:42:00 [info]: 	 
+2022-05-03 05:42:00 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:42:00 [info]: 	adding '/example1651556520480/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:42:00 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:42:02 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:42:02 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:42:02 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556520480/meta.json 
+2022-05-03 05:42:02 [info]: 	 
+2022-05-03 05:42:02 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556520480 
+2022-05-03 05:42:02 [info]: 	 
+2022-05-03 05:42:02 [info]: 	object 
+2022-05-03 05:42:33 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:42:33 [info]: 	[object Object] 
+2022-05-03 05:42:33 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556553681 
+2022-05-03 05:42:33 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556553681' 
+2022-05-03 05:42:33 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556553681' 
+2022-05-03 05:42:33 [info]: 	 
+2022-05-03 05:42:33 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:42:33 [info]: 	adding '/example1651556553681/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:42:33 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:42:37 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:42:37 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:42:37 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556553681/meta.json 
+2022-05-03 05:42:37 [info]: 	 
+2022-05-03 05:42:37 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556553681 
+2022-05-03 05:42:37 [info]: 	 
+2022-05-03 05:42:37 [info]: 	object 
+2022-05-03 05:43:47 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:43:47 [info]: 	[object Object] 
+2022-05-03 05:43:47 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556627365 
+2022-05-03 05:43:47 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556627365' 
+2022-05-03 05:43:47 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556627365' 
+2022-05-03 05:43:47 [info]: 	 
+2022-05-03 05:43:47 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:43:47 [info]: 	adding '/example1651556627365/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:43:47 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:43:49 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:43:49 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:43:49 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556627365/meta.json 
+2022-05-03 05:43:49 [info]: 	 
+2022-05-03 05:43:49 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556627365 
+2022-05-03 05:43:49 [info]: 	 
+2022-05-03 05:43:49 [info]: 	object 
+2022-05-03 05:44:03 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 05:44:28 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:44:28 [info]: 	[object Object] 
+2022-05-03 05:44:28 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556668345 
+2022-05-03 05:44:28 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556668345' 
+2022-05-03 05:44:28 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556668345' 
+2022-05-03 05:44:28 [info]: 	 
+2022-05-03 05:44:28 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:44:28 [info]: 	adding '/example1651556668345/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:44:28 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:44:30 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:44:30 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:44:30 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556668345/meta.json 
+2022-05-03 05:44:30 [info]: 	 
+2022-05-03 05:44:30 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556668345 
+2022-05-03 05:44:30 [info]: 	 
+2022-05-03 05:44:30 [info]: 	object 
+2022-05-03 05:46:33 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:46:33 [info]: 	[object Object] 
+2022-05-03 05:46:33 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556792996 
+2022-05-03 05:46:33 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556792996' 
+2022-05-03 05:46:33 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556792996' 
+2022-05-03 05:46:33 [info]: 	 
+2022-05-03 05:46:33 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:46:33 [info]: 	adding '/example1651556792996/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:46:33 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:46:34 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:46:34 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:46:34 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556792996/meta.json 
+2022-05-03 05:46:34 [info]: 	 
+2022-05-03 05:46:34 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556792996 
+2022-05-03 05:46:34 [info]: 	 
+2022-05-03 05:46:34 [info]: 	object 
+2022-05-03 05:46:48 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 05:46:48 [info]: 	Domain value: 
+@xnft:
+ipfs:bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee
+http:nft.xrpfs.com
+Value size: 91 of 256 bytes used 
+2022-05-03 05:48:51 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:48:51 [info]: 	[object Object] 
+2022-05-03 05:48:51 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556931230 
+2022-05-03 05:48:51 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556931230' 
+2022-05-03 05:48:51 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556931230' 
+2022-05-03 05:48:51 [info]: 	 
+2022-05-03 05:48:51 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:48:51 [info]: 	adding '/example1651556931230/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:48:51 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:48:52 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:48:52 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:48:52 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556931230/meta.json 
+2022-05-03 05:48:52 [info]: 	 
+2022-05-03 05:48:52 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651556931230 
+2022-05-03 05:48:52 [info]: 	 
+2022-05-03 05:48:52 [info]: 	object 
+2022-05-03 05:49:09 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 05:49:09 [info]: 	Domain value: 
+@xnft:
+ipfs:bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee
+http:nft.xrpfs.com
+Value size: 91 of 256 bytes used 
+2022-05-03 05:50:09 [info]: 	starting IPFS node for content distribution 
+2022-05-03 05:50:09 [info]: 	[object Object] 
+2022-05-03 05:50:09 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651557009105 
+2022-05-03 05:50:09 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651557009105' 
+2022-05-03 05:50:09 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651557009105' 
+2022-05-03 05:50:09 [info]: 	 
+2022-05-03 05:50:09 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 05:50:09 [info]: 	adding '/example1651557009105/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 05:50:09 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 05:50:10 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 05:50:10 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 05:50:10 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651557009105/meta.json 
+2022-05-03 05:50:10 [info]: 	 
+2022-05-03 05:50:10 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651557009105 
+2022-05-03 05:50:10 [info]: 	 
+2022-05-03 05:50:10 [info]: 	object 
+2022-05-03 05:50:25 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 05:50:25 [info]: 	Domain value: 
+@xnft:
+ipfs:bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee
+http:nft.xrpfs.com
+Value size: 91 of 256 bytes used 
+2022-05-03 05:50:25 [info]: 	 
+2022-05-03 05:50:25 [warn]: 	YOU MUST FUND THE NFT ADDRESS w/ 20+ XRP (CLASSIC): 'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' (XADDRESS): 'XVVwrKsPXieZ6fLbn6pMiU9fYjoiwGNFkwrwE68tdRVLhhQ' 
+2022-05-03 05:50:25 [warn]: 	validation completed, wallet rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu is funded 
+2022-05-03 05:50:25 [info]: 	Attempting to set rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu Domain field with resource settings... 
+2022-05-03 05:50:25 [info]: 	Domain value in hex: 40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A 
+2022-05-03 05:50:27 [debug]: 	attempting submition of transaction: {"TransactionType":"AccountSet","Account":"rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu","Fee":"12","Sequence":26952156,"SetFlag":5,"Domain":"40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A"} 
+2022-05-03 05:50:27 [info]: 	Validate your NFT data is live (IPFS)(Base Dir): ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 05:50:27 [debug]: 	tentative message: The transaction was applied. Only final in a validated ledger. 
+2022-05-03 05:50:27 [info]: 	tx status code: tesSUCCESS , tx hash 1956A401DBF2E7D40704226B000AE869C21513DCE551F3215C580B0CAEDB9C45 
+2022-05-03 05:50:27 [info]: 	Validate your NFT base folder is live: https://gateway.ipfs.io/ipfs/bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee  
+2022-05-03 05:50:27 [info]: 	See your Testnet NFT wallet here: https://testnet.xrpl.org/accounts/rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu 
+2022-05-03 05:50:27 [info]: 	 
+2022-05-03 05:50:27 [warn]: 	Script is set to end in 30 minutes 
+2022-05-03 06:02:48 [info]: 	starting IPFS node for content distribution 
+2022-05-03 06:02:48 [info]: 	[object Object] 
+2022-05-03 06:10:55 [info]: 	starting IPFS node for content distribution 
+2022-05-03 06:10:55 [info]: 	[object Object] 
+2022-05-03 06:21:18 [info]: 	starting IPFS node for content distribution 
+2022-05-03 06:21:18 [info]: 	[object Object] 
+2022-05-03 06:26:10 [info]: 	starting IPFS node for content distribution 
+2022-05-03 06:26:10 [info]: 	[object Object] 
+2022-05-03 15:17:56 [info]: 	starting IPFS node for content distribution 
+2022-05-03 15:17:56 [info]: 	[object Object] 
+2022-05-03 15:17:56 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/sbom-ledger/output/example1651591076729 
+2022-05-03 15:20:14 [info]: 	starting IPFS node for content distribution 
+2022-05-03 15:20:14 [info]: 	[object Object] 
+2022-05-03 15:20:14 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591214946 
+2022-05-03 15:20:14 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591214946' 
+2022-05-03 15:20:14 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591214946' 
+2022-05-03 15:20:14 [info]: 	 
+2022-05-03 15:20:14 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 15:20:14 [info]: 	adding '/example1651591214946/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 15:20:14 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 15:20:19 [error]: 	Error: connect() timed out after 5000 ms. If your internet connection is working, the rippled server may be blocked or inaccessible. You can also try setting the 'connectionTimeout' option in the RippleAPI constructor. 
+2022-05-03 15:20:28 [info]: 	starting IPFS node for content distribution 
+2022-05-03 15:20:28 [info]: 	[object Object] 
+2022-05-03 15:20:28 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591228924 
+2022-05-03 15:20:28 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591228924' 
+2022-05-03 15:20:28 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591228924' 
+2022-05-03 15:20:28 [info]: 	 
+2022-05-03 15:20:28 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 15:20:28 [info]: 	adding '/example1651591228924/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 15:20:28 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 15:20:31 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 15:20:31 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 15:20:31 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591228924/meta.json 
+2022-05-03 15:20:31 [info]: 	 
+2022-05-03 15:20:31 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591228924 
+2022-05-03 15:20:31 [info]: 	 
+2022-05-03 15:20:31 [info]: 	object 
+2022-05-03 15:20:54 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 15:20:54 [info]: 	Domain value: 
+@xnft:
+ipfs:bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee
+http:nft.xrpfs.com
+Value size: 91 of 256 bytes used 
+2022-05-03 15:20:54 [info]: 	 
+2022-05-03 15:20:54 [warn]: 	YOU MUST FUND THE NFT ADDRESS w/ 20+ XRP (CLASSIC): 'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' (XADDRESS): 'XVVwrKsPXieZ6fLbn6pMiU9fYjoiwGNFkwrwE68tdRVLhhQ' 
+2022-05-03 15:20:54 [warn]: 	validation completed, wallet rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu is funded 
+2022-05-03 15:20:54 [info]: 	Attempting to set rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu Domain field with resource settings... 
+2022-05-03 15:20:54 [info]: 	Domain value in hex: 40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A 
+2022-05-03 15:20:55 [debug]: 	attempting submition of transaction: {"TransactionType":"AccountSet","Account":"rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu","Fee":"12","Sequence":26952157,"SetFlag":5,"Domain":"40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A"} 
+2022-05-03 15:20:55 [info]: 	Validate your NFT data is live (IPFS)(Base Dir): ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 15:20:55 [debug]: 	tentative message: The transaction was applied. Only final in a validated ledger. 
+2022-05-03 15:20:55 [info]: 	tx status code: tesSUCCESS , tx hash 89D54691DE4288D2AFED8665A4B53DE5EF87D597C73AF779234091FBBA22A548 
+2022-05-03 15:20:55 [info]: 	Validate your NFT base folder is live: https://gateway.ipfs.io/ipfs/bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee  
+2022-05-03 15:20:55 [info]: 	See your Testnet NFT wallet here: https://testnet.xrpl.org/accounts/rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu 
+2022-05-03 15:20:55 [info]: 	 
+2022-05-03 15:20:55 [warn]: 	Script is set to end in 30 minutes 
+2022-05-03 15:22:18 [info]: 	starting IPFS node for content distribution 
+2022-05-03 15:22:18 [info]: 	[object Object] 
+2022-05-03 15:22:18 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591338263 
+2022-05-03 15:22:18 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591338263' 
+2022-05-03 15:22:18 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591338263' 
+2022-05-03 15:22:18 [info]: 	 
+2022-05-03 15:22:18 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 15:22:18 [info]: 	adding '/example1651591338263/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 15:22:18 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 15:22:22 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 15:22:22 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 15:22:22 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591338263/meta.json 
+2022-05-03 15:22:22 [info]: 	 
+2022-05-03 15:22:22 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591338263 
+2022-05-03 15:22:22 [info]: 	 
+2022-05-03 15:22:22 [info]: 	object 
+2022-05-03 15:22:37 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 15:22:37 [info]: 	Domain value: 
+@xnft:
+ipfs:bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee
+http:nft.xrpfs.com
+Value size: 91 of 256 bytes used 
+2022-05-03 15:22:37 [info]: 	 
+2022-05-03 15:22:37 [warn]: 	YOU MUST FUND THE NFT ADDRESS w/ 20+ XRP (CLASSIC): 'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' (XADDRESS): 'XVVwrKsPXieZ6fLbn6pMiU9fYjoiwGNFkwrwE68tdRVLhhQ' 
+2022-05-03 15:22:37 [warn]: 	validation completed, wallet rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu is funded 
+2022-05-03 15:22:37 [info]: 	Attempting to set rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu Domain field with resource settings... 
+2022-05-03 15:22:37 [info]: 	Domain value in hex: 40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A 
+2022-05-03 15:22:38 [debug]: 	attempting submition of transaction: {"TransactionType":"AccountSet","Account":"rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu","Fee":"12","Sequence":26952158,"SetFlag":5,"Domain":"40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A"} 
+2022-05-03 15:22:38 [info]: 	Validate your NFT data is live (IPFS)(Base Dir): ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 15:22:38 [debug]: 	tentative message: The transaction was applied. Only final in a validated ledger. 
+2022-05-03 15:22:38 [info]: 	tx status code: tesSUCCESS , tx hash 1ED027A96356080684E9CC0AFDBF78B775C8124E282F92EEB81A4BEB7CAF76B0 
+2022-05-03 15:22:38 [info]: 	Validate your NFT base folder is live: https://gateway.ipfs.io/ipfs/bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee  
+2022-05-03 15:22:38 [info]: 	See your Testnet NFT wallet here: https://testnet.xrpl.org/accounts/rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu 
+2022-05-03 15:22:38 [info]: 	 
+2022-05-03 15:22:38 [warn]: 	Script is set to end in 30 minutes 
+2022-05-03 15:23:59 [info]: 	starting IPFS node for content distribution 
+2022-05-03 15:23:59 [info]: 	[object Object] 
+2022-05-03 15:23:59 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591439820 
+2022-05-03 15:23:59 [info]: 	created build destination: '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591439820' 
+2022-05-03 15:23:59 [info]: 	copying date from source '/Users/utkashar/Documents/open-source/la-sbom-ledger/input/Example/content' to '/Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591439820' 
+2022-05-03 15:23:59 [info]: 	 
+2022-05-03 15:23:59 [info]: 	gathering IPFS CID & SHA256 hashes to add to meta data file... 
+2022-05-03 15:23:59 [info]: 	adding '/example1651591439820/example.json' with cid hash 'decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63' to meta data... 
+2022-05-03 15:23:59 [info]: 	Init connection to xrp ledger: "wss://s.altnet.rippletest.net" 
+2022-05-03 15:24:02 [info]: 	account secret appears valid: 'ss71fBzFpSXMixT6ZBoXNgkFeBo9y' 
+2022-05-03 15:24:02 [info]: 	NFT Wallet Address: (Classic)  'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' 
+2022-05-03 15:24:02 [info]: 	 
+2022-05-03 15:24:02 [info]: 	writting data to meta file: /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591439820/meta.json 
+2022-05-03 15:24:02 [info]: 	user validated build settings for /Users/utkashar/Documents/open-source/la-sbom-ledger/output/example1651591439820 
+2022-05-03 15:24:02 [info]: 	 
+2022-05-03 15:24:02 [info]: 	object 
+2022-05-03 15:24:16 [info]: 	(IPFS) content base string recorded as: ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 15:24:16 [info]: 	 
+2022-05-03 15:24:16 [warn]: 	YOU MUST FUND THE NFT ADDRESS w/ 20+ XRP (CLASSIC): 'rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu' (XADDRESS): 'XVVwrKsPXieZ6fLbn6pMiU9fYjoiwGNFkwrwE68tdRVLhhQ' 
+2022-05-03 15:24:16 [warn]: 	validation completed, wallet rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu is funded 
+2022-05-03 15:24:16 [info]: 	Domain value: 
+@xnft:
+ipfs:bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee
+http:nft.xrpfs.com
+Value size: 91 of 256 bytes used 
+2022-05-03 15:24:16 [info]: 	Domain value in hex: 40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A 
+2022-05-03 15:24:16 [info]: 	Attempting to set rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu Domain field with resource settings... 
+2022-05-03 15:24:20 [debug]: 	attempting submition of transaction: {"TransactionType":"AccountSet","Account":"rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu","Fee":"12","Sequence":26952159,"SetFlag":5,"Domain":"40786E66743A0A697066733A6261666B726569667372736B6C65676B3472336A66743466756377766F34707A7A77637A6A65637366673571726A677032617265766E656C3265650A687474703A6E66742E78727066732E636F6D0A"} 
+2022-05-03 15:24:20 [debug]: 	tentative message: The transaction was applied. Only final in a validated ledger. 
+2022-05-03 15:24:20 [info]: 	tx status code: tesSUCCESS , tx hash C533DC2E56B66292BDBD8C37CCC216429A617DF682F9B1F19B967CDEBC834EA6 
+2022-05-03 15:24:20 [info]: 	Validate your NFT data is live (IPFS)(Base Dir): ipfs://bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee/ 
+2022-05-03 15:24:20 [info]: 	Validate your NFT base folder is live: https://gateway.ipfs.io/ipfs/bafkreifsrsklegk4r3jft4fucwvo4pzzwczjecsfg5qrjgp2arevnel2ee  
+2022-05-03 15:24:20 [info]: 	See your Testnet NFT wallet here: https://testnet.xrpl.org/accounts/rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu 
+2022-05-03 15:24:20 [info]: 	 
+2022-05-03 15:24:20 [warn]: 	Script is set to end in 30 minutes 

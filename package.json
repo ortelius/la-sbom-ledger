@@ -1,5 +1,5 @@
 {
-  "name": "xrpl-nft-creator",
+  "name": "la-sbom-ledger",
   "version": "1.0.0",
   "description": "Proof Of Concept for NFT token for the XRP ledger, ",
   "main": "index.js",

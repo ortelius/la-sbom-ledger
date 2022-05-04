@@ -9,9 +9,9 @@ class IPFSStorage {
         this.storage = new NFTStorage({ endpoint, token })
 	}
 
-	async upload(filePath) {
+	async upload(data) {
 		try {
-			const data = await fs.promises.readFile(filePath)
+			// const data = await fs.promises.readFile(filePath)
 			const cid = await this.storage.storeBlob(new Blob([data]))
 
 			const metadata = {
