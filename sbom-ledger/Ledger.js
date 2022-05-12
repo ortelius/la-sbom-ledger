@@ -137,13 +137,13 @@ class Ledger {
     }
   }
   
-  async  GetBuildConfig(inputDir) {
+  async  GetBuildConfig(dataDir) {
     try {
       //options specific to globSource
       const globSourceOptions = { recursive: true };
       let workOptions = [];
       //look for all build directories
-      for await (const file of globSource(inputDir, globSourceOptions)) {
+      for await (const file of globSource(dataDir + path.sep + "input", globSourceOptions)) {
         let pathCount = file.path.split("/").length - 1;
         if (pathCount < 3 && pathCount > 1) {
           file.path = __dirname + file.path;
@@ -160,10 +160,10 @@ class Ledger {
           "no valid build directories found in input directory, exiting"
         );
       }
-  
+      
       //currently hardcoded
       let buildDir = {
-        buildSourceFolder:"/Users/utkashar/Documents/open-source/la-sbom-ledger/input/Example",
+        buildSourceFolder: dataDir + path.sep + "input" + path.sep + "Example",
       };
   
       logs.info(buildDir);
@@ -181,7 +181,7 @@ class Ledger {
           .pop()
           .toLowerCase()
           .replace(/\s/g, "") + `${epochCreateTime}`;
-      let buildDestFolder = "/Users/utkashar/Documents/open-source/la-sbom-ledger" + path.sep + "output" + path.sep + destName;
+      let buildDestFolder = dataDir + path.sep + "output" + path.sep + destName;
   
       //Return the results
       return {

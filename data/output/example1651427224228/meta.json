@@ -1,0 +1,32 @@
+{
+    "webHostingURI": "nft.xrpfs.com",
+    "honorDynamicILPAddress": true,
+    "staticILPAddress": null,
+    "author": {
+        "wallet": "rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu",
+        "name": "Utkarsh",
+        "email": "utkarshkviim [@] example [.] com",
+        "twitter": "@codeWithUtkarsh",
+        "website": "http://some.example.com/",
+        "payId": "example$example.com",
+        "bio": "\nFind me on Twitter @codeWithUtkarsh"
+    },
+    "details": {
+        "title": "Example SBOM",
+        "description": "A software bill of materials(SBOM) is a list of components in a piece of software. Software vendors often create products by assembling open source and commercial software components. The SBOM describes the components in a product. It is analogous to a list of ingredients on food packaging: where you might consult a label to avoid foods that may cause an allergies, SBOMs can help organizations or persons avoid consumption of software that could harm them.",
+        "cover": null,
+        "link": null,
+        "legal": "",
+        "NFTWalletAddress": "rKHx61DGFRZU6SLchLSDRMShFjm6L1BhBu",
+        "NFTWalletXAddress": "XVVwrKsPXieZ6fLbn6pMiU9fYjoiwGNFkwrwE68tdRVLhhQ"
+    },
+    "hashes": [
+        {
+            "file": "/example1651427224228/example.json",
+            "cid": "QmQKdRwKL5rHmLfC4J7jCX351f9QGmcZb2X3Pm866ggrSQ",
+            "sha256": "decc4839b2ac09fedf5cb84817cf6223373cce8362b7024749d2f9b3cee51f63"
+        }
+    ],
+    "created": 1651427224228,
+    "framework": "https://github.com/ortelius/ortelius"
+}

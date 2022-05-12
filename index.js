@@ -67,9 +67,9 @@ async function main() {
     //   repo: config.ipfs.node,
     // });
 
-    // Choose the build path to use and get the build config
-    let inputDir = __dirname + path.sep + "input";
-    let buildSettings = await Ledger.GetBuildConfig(inputDir);
+    // Choose the build path to use and get the build config    
+    let dataDir = __dirname + path.sep + "data";         
+    let buildSettings = await Ledger.GetBuildConfig(dataDir);
 
     //Confirm the settings being used for this build with a confirmation
     console.log(colorize(JSON.stringify(buildSettings, null, 2)));
