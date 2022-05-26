@@ -130,8 +130,8 @@ async function main() {
       `user validated build settings for ${buildSettings.buildDestFolder}`
     );
     logs.info();
-    logs.info(typeof(buildSettings));
-    let cidData = await ipfsStorage.upload(buildSettings);
+    logs.info(buildSettings);
+    let cidData = await ipfsStorage.upload(buildSettings.buildSourceFolder + path.sep + "content" + path.sep + "example.json" );
 
     let baseString = cidData.cid.toString();
 
