@@ -3,7 +3,7 @@
 ## Introduction
 This document describes how the Ortelius Open Source community will build a blockchain that can create a continuous cloud-native software bill of material (SBOM) audit trail. It will show how the implementation of XRP ledger and non-fungible tokens can provide a global transaction log of low-level changes in the microservice software supply chain across open-source communities. It will also show how Federated Sidechains can offer the same benefits to private enterprises. The results of this implementation will lead to:
 * Faster resolution of security issues
-* Facilitate zero-trust policies,
+* Facilitate provenance and zero-trust policies,
 * Provide quick notifications to consumers of shared services
 * Clarify microservice usage and relationships
 * Aggregate the 'logical' application SBOMs in a microservice implementation to meet federal requirements. 
@@ -18,7 +18,7 @@ The Ortelius GitHub project can be found at:[https://github.com/ortelius/orteliu
 
 ### Traditional SBOMs
 
-SBOMs are the answer to hardening cybersecurity. SBOM insights can potentially facilitate 'zero trust' policies and expose impact and vulnerabilities. SBOMs are critical in auditing software changes in traditional software development, including knowing who made the change and when they were made. In addition, SBOMs track the licensing and providence of the software raw materials (artifacts, source, libraries, etc.) related to a specific software solution version or application release.
+SBOMs are the answer to hardening cybersecurity. SBOM insights can potentially facilitate 'zero trust' policies and expose impact and vulnerabilities. SBOMs are critical in auditing software changes in traditional software development, including knowing who made the change and when they were made. In addition, SBOMs track the licensing and provenance of the software raw materials (artifacts, source, libraries, etc.) related to a specific software solution version or application release.
 
 "…with ripples felt by the global technology sector at large, was the Biden Administration's Executive Order on improving the Nation's Cybersecurity. This bellwether indicator put Software Bill of Material (SBOMs) at the forefront of software procurement practices.
  
@@ -30,7 +30,7 @@ SBOMs are the answer to hardening cybersecurity. SBOM insights can potentially f
 At present, several security challenges face both the open-source community and the enterprise that rely on open-source technology in a cloud-native, microservice architecture: 
 
 * Traditional SBOMs are generated at 'build' time. In a cloud-native environment, SBOMs are created for a single microservice, but not at the application level. 
-* Common shared objects can be quickly consumed across the ecosystem without visibility into their usage, providence, or ownership.
+* Common shared objects can be quickly consumed across the ecosystem without visibility into their usage, provenance, or ownership.
 Application teams struggle to understand an application's software supply chain, including what versions of shared services they * consume. 
 * IT engineering teams are tasked with providing application-level SBOMs without knowing their complete supply chain. 
 * Transitive dependency scanning is done at the creation of the microservice image build, but there is no method of tracking what microservices a 'logical' application uses at runtime. 
@@ -61,7 +61,7 @@ The Ortelius Application SBOM Ledger will track and audit changes to all 'logica
 ### Additional Use Cases for the Ortelius Application SBOM Ledger
 There are four main uses cases for this Blockchain Application SBOM Ledger:
 
-1. Enforce 'zero-trust' by interrogating the signed providence of microservices. 
+1. Enforce 'zero-trust' by interrogating the signed provenance of microservices. 
 2. Auditing of microservice' drift' between clusters can be reported and automatically used to correct the drift. The desired state exists in the blockchain and can be used to correct a 'threat' when an incorrect 'version' is detected across clusters.
 Provide a notification model with immediate feedback to all consumers impacted by a threat. For example, a single location to track all users of Log4J, and notify them immediately of the required actions. 
 3. Use events to build around particular required changes. For example, a fix to a CVE can trigger events across the DevOps pipeline to automatically address the vulnerability. 
