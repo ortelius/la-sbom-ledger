@@ -98,7 +98,7 @@ Items A, B, C are generated using the Ortelius Open Source project. The generati
 
 ![Single Logical Application SBOM](lasbom.png)
 
-A single version of a Logical Application SBOM (LA SBOM) is an immutable snapshot of the dependencies and metadata. This LA SBOM version is represented as a non-fungible token (NTF).
+A single version of a Logical Application SBOM (LA SBOM) is an immutable snapshot of the dependencies and metadata. This LA SBOM version is represented as a non-fungible token (NFT).
 
 ```
 Example NFToken JSON
@@ -109,9 +109,9 @@ Example NFToken JSON
 }
 ```
 
-The [XRPL implementation of the NTFS](https://xrpl.org/nftoken.html#retrieving-nftoken-data-and-metadata) does not include the metadata on the token; instead, it uses a pointer via the URI to an immutable object that is stored external to the blockchain. The recommended NTF metadata storage is on IPFS such as Protocol Labs called nft.storage. An LA-SBOM version would be represented initially in IPFS as JSON. The next iteration of storage would be a GraphDB such as [ArangoDB](https://www.arangodb.com/). The GraphDB would enable querying of the NFT metadata while ensuring immutability is maintained.
+The [XRPL implementation of the NFTS](https://xrpl.org/nftoken.html#retrieving-nftoken-data-and-metadata) does not include the metadata on the token; instead, it uses a pointer via the URI to an immutable object that is stored external to the blockchain. The recommended NFT metadata storage is on IPFS such as Protocol Labs called nft.storage. An LA-SBOM version would be represented initially in IPFS as JSON. The next iteration of storage would be a GraphDB such as [ArangoDB](https://www.arangodb.com/). The GraphDB would enable querying of the NFT metadata while ensuring immutability is maintained.
 
-To prevent redundancy in the blockchain and NTF metadata, the microservice version would be split into its own NFT and shared by multiple LA SBOM versions. So the LA SBOM would reference the microservice version NFT blockchain.  
+To prevent redundancy in the blockchain and NFT metadata, the microservice version would be split into its own NFT and shared by multiple LA SBOM versions. So the LA SBOM would reference the microservice version NFT blockchain.  
 
 ### Recorded Transactions
 
@@ -125,7 +125,7 @@ The LA SBOM on XRPL provides quick answers to complex questions such as:
 * What microservice, and what versions does my logical application use?
 * What logical applications use a particular microservice version of a package? 
 
-These types of questions can be answered quickly by interrogating the XRPL and associated NTFS for the LA SBOM. For example, as the developer of Log4J, the developer can see all of the consuming logical applications across the world. This information can be used to notify the consuming application developers that a fix is needed. On the flip side, an application developer can determine if they are using Log4J even if it is in a package they are not responsible for.
+These types of questions can be answered quickly by interrogating the XRPL and associated NFTS for the LA SBOM. For example, as the developer of Log4J, the developer can see all of the consuming logical applications across the world. This information can be used to notify the consuming application developers that a fix is needed. On the flip side, an application developer can determine if they are using Log4J even if it is in a package they are not responsible for.
 
 # Conclusion
 As we shift from traditional development to complex cloud-native systems, the creation of application SBOMs becomes extremely difficult and progressively more important. The Application SBOM ledger is the next step in the supply chain process. SBOMs can not be limited to the 'build' level, which is a microservice in cloud-native architecture. SBOMs always have and will continue to be required at the application level. Methods to aggregate this data and track application versions will be critical for managing security across the software supply chain. 
