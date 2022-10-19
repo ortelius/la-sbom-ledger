@@ -1,8 +1,7 @@
+import get_minimize_data from './utils.mjs'
 
-import get_minimize_data from './utils.js'
-
-const data_1 = require("../../test/resource/sample_sbom_1.json");
-const data_2 = require("../../test/resource/sample_sbom_2.json");
+import data_1  from "../../test/resource/sample_sbom_1.json" assert {type: 'json'}
+import data_2  from "../../test/resource/sample_sbom_2.json" assert {type: 'json'}
 
 var data_3 = {
     "licenses": [
@@ -23,4 +22,3 @@ var requiredJsonString = '{"licenses":[{"license":{"name":"BSD-3-Clause"}}]}';
 console.log(parsedJsonString_1 == requiredJsonString);
 console.log(parsedJsonString_2 == requiredJsonString);
 console.log(parsedJsonString_3 == requiredJsonString);
-
