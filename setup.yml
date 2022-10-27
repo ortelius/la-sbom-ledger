@@ -13,3 +13,7 @@ xrp:
 system:
   exitEnabled: true
   exitScriptTTL: 30 #Minutes
+
+nft:
+  host: https://api.nft.storage
+  API_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGNCMjVGNzNBYjYwY2U3QTNGMTUwZDhjM0NlYzlGOTZDZmQ0NDQ2QTQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2NjExMTkwMDU5MiwibmFtZSI6InRlc3QtYXBpLWtleS11dGthcnNoIn0.RB1Z0O6nsP9k91CKA-STZq6IQgXuHqPMo6JSMTln9ak'
