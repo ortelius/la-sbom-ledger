@@ -25,12 +25,13 @@ pip install git+https://github.com/nftstorage/python-client.git
 
 # Usage
 
-| API   | Input Parameter                   |Usage                                    | Output Response                       |
-| ----- | --------------------------------- | --------------------------------------- | ------------------------------------- |
-| save  | data: fileName or Json String     |Store the Nft Data on Nft Storage.  |The standard Ntf.Storage response Json |
-|       | type: file or json as per data    |                                         |The standard Ntf.Storage response Json |
-| check | cid                               |Check if a CID of an NFT is being stored by nft.storage.  |The standard Ntf.Storage response Json |
-| status| cid                               | Get information for the stored CID  |The standard Ntf.Storage response Json |
+| API    | Input Parameter                   |Usage                                    | Output Response                       |
+| ------ | --------------------------------- | --------------------------------------- | ------------------------------------- |
+| save   | data: fileName or Json String     |Store the Nft Data on Nft Storage.  |The standard Ntf.Storage response Json |
+|        | type: file or json as per data    |                                         |The standard Ntf.Storage response Json |
+| check  | cid                               |Check if a CID of an NFT is being stored by nft.storage.  |The standard Ntf.Storage response Json |
+| status | cid                               | Get information for the stored CID  |The standard Ntf.Storage response Json |
+| getData| cid                               | Get exact data for the CID (Supported type is JSON)  |Json Data |
 
 
 ## The standard Ntf.Storage response Json sample for /save
@@ -142,6 +143,10 @@ pip install git+https://github.com/nftstorage/python-client.git
            'type': 'image/*'}}
 ```
 
+## The standard Ntf.Storage response Json sample for /getData
+```json
+{"licenses":[{"license":{"name":"BSD-3-Clause"}}]}
+```
 # Testing
 
 ## Visit nft_storage_utils_test.py for the unit tests
