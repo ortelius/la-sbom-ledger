@@ -3,6 +3,7 @@ from nft_storage.api import nft_storage_api
 from utils import get_minimize_data
 import yaml
 from io import BytesIO, IOBase
+import requests
 import json
 
 properties = yaml.safe_load(open('../../setup.yml'))
@@ -56,3 +57,14 @@ def status(cid):
         except nft_storage.ApiException as e:
             print("Exception when calling nft_storage_utils.status(): %s\n" % e)
             return e
+
+def getData(cid):
+    try:
+        url = f"https://ipfs.io/ipfs/{cid}?format=json"
+        response = requests.get(url)
+        data = get_minimize_data(response.json())
+        print(data)
+        return data
+    except nft_storage.ApiException as e:
+        print("Exception when calling nft_storage_utils.getData(): %s\n" % e)
+        return e
