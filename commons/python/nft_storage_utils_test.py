@@ -32,3 +32,6 @@ assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv
 
 response = save(josn_dict, 'xml')
 assert type(response) == Exception
+
+response = getData("bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be")
+assert response == '{"licenses":[{"license":{"name":"BSD-3-Clause"}}]}'
