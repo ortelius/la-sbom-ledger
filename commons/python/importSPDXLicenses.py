@@ -1,7 +1,6 @@
 import json
 from nft_storage_utils import *
 import time
-import ijson
 
 def importByResourceFile(path):
 
@@ -28,16 +27,3 @@ def importByResourceFile(path):
         print("The Import Ended at: "+str(time.time()))
         f = open("SPDX-license-list-cids.json", "w")
         f.write(json.dumps(spdx_cids))
-
-# importByResourceFile()/
-
-import requests
-import json
-
-def importByResourceUrl(url):
-
-    response = requests.get(url)
-    data = json.loads(response.text)
-    print(data)
-
-# importByResourceUrl('https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json')
