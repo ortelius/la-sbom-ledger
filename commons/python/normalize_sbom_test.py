@@ -2,11 +2,17 @@ from utils import *
 from normalize_sbom import *
 
 # Normalize data play book
+f = open('./../../test/resource/sample_sbom.json')
+data = json.load(f)
+normalized_data = normalize(data)
+print(normalized_data)
 
-f = open('./../../test/resource/sample_sbom_normalization.json')
-data_1 = json.load(f)
-json_data = normalize_sbom_json(data_1)
-print(json_data)
+
+# Transpose method
+f = open('./../../test/resource/sample_sbom.json')
+data = json.load(f)
+wrapped_data = wrap_to_nft(data)
+print(wrapped_data)
 
 # response = getData("bafkreifu26sd4estnvvhdfdpbo7d3uhporomde2s5tfjxubhroujxvpknu")
 # print(json.loads(response))

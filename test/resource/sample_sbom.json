@@ -17,15 +17,6 @@
             }
         }
     ],
-    "abc": {
-        "xyz": [
-            {
-                "license": {
-                    "name": "BSD-3-Clause"
-                }
-            }
-        ]
-    },
     "modified": false,
     "name": "click",
     "publisher": "",
