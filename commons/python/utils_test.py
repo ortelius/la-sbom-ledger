@@ -1,6 +1,8 @@
 import json
-from utils import get_minimize_data
+from utils import *
 
+
+# Minimize data test case
 
 f = open('./../../test/resource/sample_sbom_1.json')
 data_1 = json.load(f)
@@ -15,3 +17,4 @@ assert parsedJsonString_2 == '{"licenses":[{"license":{"name":"BSD-3-Clause"}}]}
 data_3 = {'licenses': [{"license": {"name": "BSD-3-Clause"}}]}
 parsedJsonString_3 = get_minimize_data(data_3)
 assert parsedJsonString_3 == '{"licenses":[{"license":{"name":"BSD-3-Clause"}}]}'
+

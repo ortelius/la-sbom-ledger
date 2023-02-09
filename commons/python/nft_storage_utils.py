@@ -63,7 +63,7 @@ def getData(cid):
         url = f"https://ipfs.io/ipfs/{cid}?format=json"
         response = requests.get(url)
         data = get_minimize_data(response.json())
-        print(data)
+        # print(data)
         return data
     except nft_storage.ApiException as e:
         print("Exception when calling nft_storage_utils.getData(): %s\n" % e)
