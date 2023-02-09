@@ -1,5 +1,6 @@
 const fs = require('fs')
 const { NFTStorage, Blob } = require('nft.storage')
+const https = require('https')
 
 const token =
 	process.env.NFT_STORAGE_API_TOKEN ||
@@ -34,9 +35,30 @@ class IPFSStorage {
 		try {
 			const status = await this.storage.status(cid)
 
-			if (status.cid) return { ipfsUrl: `https://${cid}.ipfs.nftstorage.link/` }
+			if (status.cid) {
+				await this.#transposeNFTToSBOMFile(
+					`https://${cid}.ipfs.nftstorage.link/`,
+					cid
+				)
+			}
 		} catch (error) {
 			throw new Error('file not found')
+		}
+	}
+
+	async #transposeNFTToSBOMFile(url, filename) {
+		let file = fs.createWriteStream(`${filename}.json`)
+
+		try {
+			https.get(url, (response) => {
+				response
+					.on('finish', () => {
+						fs.readFile(`${filename}.json`, { encoding: 'utf8' })
+					})
+					.pipe(file)
+			})
+		} catch (error) {
+			console.log('an error occurred whilst tranposing nft to sbom', error)
 		}
 	}
 
@@ -50,5 +72,15 @@ class IPFSStorage {
 		}
 	}
 }
+
+let ipfsStorage = new IPFSStorage(token)
+
+async function test() {
+	await ipfsStorage.retrieve(
+		'bafkreigqcgfdjwzcfl2vl2fw3djw2u63m3k663zghrrqwntaqgxldkzgdm'
+	)
+}
+
+test()
 
 module.exports = new IPFSStorage(token)

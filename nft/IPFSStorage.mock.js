@@ -11,11 +11,19 @@ class MockIPFSStorage {
 		const status = ''
 		const metadata = ''
 
+		this.#storeBlob(data, cid)
+
 		return { cid, status, metadata }
 	}
 
 	async #createHash(value) {
 		return crypto.createHash('sha256').update(value).digest('hex')
+	}
+
+	async #storeBlob(blob, cid) {
+		fs.writeFile(`${cid}.json`, JSON.stringify(blob), (err) => {
+			if (err) throw err
+		})
 	}
 }
 
