@@ -12,12 +12,19 @@
     ],
     "licenses": [
         {
-            "license": {
-                "name": "BSD-3-Clause"
-            }
+            "license": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ]
         }
     ],
     "modified": false,
+    "meta":{
+        "type": "library"
+    },
     "name": "click",
     "publisher": "",
     "purl": "pkg:pypi/click@7.1.2",

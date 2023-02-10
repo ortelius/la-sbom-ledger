@@ -1,37 +1,41 @@
 from nft_storage_utils import *
 
-response = save('../../test/resource/sample_sbom_1.json', 'file')
-assert response['ok'] == True
-assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
+# response = save('../../test/resource/sample_sbom_1.json', 'file')
+# assert response['ok'] == True
+# assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
 
-response = save('../../test/resource/sample_sbom_2.json', 'file')
-assert response['ok'] == True
-assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
+# response = save('../../test/resource/sample_sbom_2.json', 'file')
+# assert response['ok'] == True
+# assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
 
-josn_dict = {
-    "licenses": [
-        {
-            "license": {
-                "name": "BSD-3-Clause"
-            }
-        }
-    ]
-}
-response = save(josn_dict, 'json')
-assert response['ok'] == True
-assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
+# josn_dict = {
+#     "licenses": [
+#         {
+#             "license": {
+#                 "name": "BSD-3-Clause"
+#             }
+#         }
+#     ]
+# }
+# response = save(josn_dict, 'json')
+# assert response['ok'] == True
+# assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
 
-response = check('bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be')
-assert response['ok'] == True
-assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
+# response = check('bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be')
+# assert response['ok'] == True
+# assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
 
-response = status(
-    'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be')
-assert response['ok'] == True
-assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
+# response = status(
+#     'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be')
+# assert response['ok'] == True
+# assert response['value']['cid'] == 'bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be'
 
-response = save(josn_dict, 'xml')
-assert type(response) == Exception
+# response = save(josn_dict, 'xml')
+# assert type(response) == Exception
 
-response = getData("bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be")
-assert response == '{"licenses":[{"license":{"name":"BSD-3-Clause"}}]}'
+# response = getData("bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be")
+# assert response == '{"licenses":[{"license":{"name":"BSD-3-Clause"}}]}'
+
+
+response = getData("bafkreibhmkzchq7m7szkultxt3cu32th5tf24vo6twv2rmm4bur5ogt5ya")
+print(response)

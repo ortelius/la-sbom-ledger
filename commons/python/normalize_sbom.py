@@ -1,7 +1,13 @@
 from pydantic import BaseModel
 from typing import Optional
 from nft_storage_utils import *
+import re
+import coloredlogs, logging
 
+# Create a logger object.
+logger = logging.getLogger(__name__)
+
+coloredlogs.install(level='DEBUG')
 
 class Hashes(BaseModel):
     alg: Optional[str] = None
@@ -30,67 +36,119 @@ def normalize(json_data):
     json_object = json.dumps(json_data, indent = 4) 
     package_details = PackageDetailsNFT(**json.loads(json_object))
 
-    print(type(convert_to_dict(package_details)))
     return {
         "purl": json_data["purl"], 
-        "details": normalize_helper(convert_to_dict(package_details)), 
-        "licenses": normalize_helper(license)}
+        "details": convert_object_to_cid(convert_to_dict(package_details)), 
+        "licenses": convert_object_to_cid(license)}
 
 
 # This method will wrap json object and store all the nested objects as NFT recersively
-def wrap_to_nft(jsonData):
+def encode_into_cid(sbom):
 
-    for key in jsonData:
-        if (isinstance(jsonData[key], dict)):
-            print("++ dict found ++" + str(jsonData[key]))
-            jsonData[key] = normalize_helper(jsonData[key])
-        elif (isinstance(jsonData[key], list)):
+    for key in sbom:
+        if (isinstance(sbom[key], dict)):
+            sbom[key] = convert_object_to_cid(sbom[key])
+
+        elif (isinstance(sbom[key], list)):
             list_of_element = []
-            for elem in jsonData[key]:
-                list_of_element.append(normalize_helper(elem))
-            jsonData[key] = list_of_element
-    return jsonData
+            for elem in sbom[key]:
+                list_of_element.append(convert_object_to_cid(elem))
+            sbom[key] = list_of_element
+    return sbom
 
-
-def normalize_helper(jsonData):
+def convert_object_to_cid(jsonData):
     if(isinstance(jsonData, list)):
         list_of_cids = []
         for elem in jsonData:
-            list_of_cids.append(normalize_helper(elem))
+            list_of_cids.append(convert_object_to_cid(elem))
         return list_of_cids
 
-    elif (detect_inner_object(jsonData)):
-        print("++ inner_object found inside ++" + str(jsonData))
+    elif (isinstance(jsonData, dict) and detect_inner_object(jsonData)):
+        logger.debug("++ inner_object found inside ++" + str(jsonData))
         for key in jsonData:
             if (isinstance(jsonData[key], dict)):
-                jsonData[key] = normalize_helper(jsonData[key])
-                print("++ creating cid for ++" + str(jsonData))
+                jsonData[key] = convert_object_to_cid(jsonData[key])
                 minified_json_element = get_minimize_data(jsonData)
                 response = save(minified_json_element, 'json')
-                return response['value']['cid']
+                return "ipfs://" + response['value']['cid']
 
             elif (isinstance(jsonData[key], list)):
                 list_of_element = []
                 for elem in jsonData[key]:
-                    list_of_element.append(normalize_helper(elem))
+                    list_of_element.append(convert_object_to_cid(elem))
                 jsonData[key] = list_of_element
 
-                print("++ creating cid for ++" + str(jsonData))
                 minified_json_element = get_minimize_data(jsonData)
                 response = save(minified_json_element, 'json')
-                return response['value']['cid']
-    else:
-        print("++ creating cid for ++" + str(jsonData))
+                return "ipfs://"+ response['value']['cid']
+    elif(isinstance(jsonData, dict)):
         minified_json_element = get_minimize_data(jsonData)
         response = save(minified_json_element, 'json')
-        return response['value']['cid']
+        cid = response['value']['cid']
+        return "ipfs://"+ str(cid)
+    
+    else:
+        return jsonData
 
 
 def detect_inner_object(jsonData):
-    print("++ traversing inside Object ++")
+    logger.debug("++ traversing inside Object ++")
     for key in jsonData:
+        
         if (isinstance(jsonData[key], dict) or isinstance(jsonData[key], list)):
             return True
 
 def convert_to_dict(obj):
     return json.loads(json.dumps(obj, default=lambda o: o.__dict__))
+
+
+# Unwrap nft data to actual nested Json Object
+def decode_into_json(sbom):
+    for key in sbom:
+        if (isinstance(sbom[key], str) and detect_nft(sbom[key]) != None):
+            sbom[key] = convert_cid_to_object(sbom[key])
+
+        elif(isinstance(sbom[key], list)):
+            list_of_element = []
+            for maybe_cid in sbom[key]:
+
+                if(detect_nft(maybe_cid) != None):
+                    list_of_element.append(convert_cid_to_object(maybe_cid))
+                else:
+                    list_of_element.append(maybe_cid)
+            
+            sbom[key] = list_of_element
+    return sbom
+
+def convert_cid_to_object(cid):
+    address = cid.split("://")[1]
+    fetched_cid = json.loads(getData(address))
+    
+    fetched_cid_data = json.loads(fetched_cid)
+    if(isinstance(fetched_cid_data, dict)):
+        for key in fetched_cid_data:
+            logger.debug("detecting cids in --" + str(fetched_cid_data))
+            if( isinstance(fetched_cid_data[key], str) and detect_nft(fetched_cid_data[key])):
+                fetched_cid_data[key] = convert_cid_to_object(fetched_cid_data[key])
+            elif(isinstance(fetched_cid_data[key], list)):
+                list_of_element = []
+                for maybe_cid in fetched_cid_data[key]:
+                    if(detect_nft(maybe_cid) != None):
+                        list_of_element.append(convert_cid_to_object(maybe_cid))
+                    else:
+                        list_of_element.append(maybe_cid)
+                
+                fetched_cid_data[key] = list_of_element
+
+    return fetched_cid_data
+
+ipfs_regex = r"^ipfs://Qm[1-9A-HJ-NP-Za-km-z]{44,}|^ipfs://b[A-Za-z2-7]{58,}|^ipfs://B[A-Z2-7]{58,}|^ipfs://z[1-9A-HJ-NP-Za-km-z]{48,}|^ipfs://F[0-9A-F]{50,}"
+
+# this method checks if this value is valid IPFS url or not
+def detect_nft(value):
+    pattern = re.compile(ipfs_regex, re.IGNORECASE)
+    return pattern.match(value)
+
+
+
+
