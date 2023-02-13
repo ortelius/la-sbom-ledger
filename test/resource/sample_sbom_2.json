@@ -1,9 +1,32 @@
 {
-"licenses": [
-        {
-                    "license": {
-    "name": "BSD-3-Clause"
-            }
+        "licenses": [
+            {
+                "license": {
+                    "name": "BSD-3-Clause"
+                },
+                "repeate":{
+                        "licenses": [
+                            {
+                "abc": {
+                                    "xyz": "pqr"
+        },
+                                "license": {
+                                    "name": "BSD-3-Clause"
                                 }
-    ]
+                                
+                            }
+                        ],
+                        "abc": {
+                            "xyz": "pqr"
+                        }
+                    },
+                "abc": {
+                    "xyz": "pqr"
+                }
+                
 }
+],
+        "abc": {
+            "xyz": "pqr"
+        }
+    }
