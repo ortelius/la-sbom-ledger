@@ -1,33 +1,21 @@
-{
-    "description": "Composable command line interface toolkit",
-    "hashes": [
-        {
-            "alg": "MD5",
-            "content": "b4233221cacc473acd422a1d54ff4c41"
-        },
-        {
-            "alg": "SHA-256",
-            "content": "dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
-        }
-    ],
-    "licenses": [
-        {
-            "license": [
-                {
-                    "license": {
-                        "name": "BSD-3-Clause"
-                    }
-                }
-            ]
-        }
-    ],
-    "modified": false,
-    "meta":{
-        "type": "library"
+[
+    {
+      "Domain": {
+        "_key": 1, 
+        "name": "GLOBAL"
+      }
     },
-    "name": "click",
-    "publisher": "",
-    "purl": "pkg:pypi/click@7.1.2",
-    "type": "library",
-    "version": "7.1.2"
-}
+    {
+      "User": {
+        "_key": 1,
+        "name": "admin",
+        "domain": {
+          "_key": 1,
+          "name": "GLOBAL"
+        },
+        "email": "admin@ortelius.io",
+        "phone": "505-444-5566",
+        "realname": "Ortelius Admin"
+      }
+    }
+]

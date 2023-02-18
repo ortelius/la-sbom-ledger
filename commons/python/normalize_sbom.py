@@ -45,15 +45,22 @@ def normalize(json_data):
 # This method will wrap json object and store all the nested objects as NFT recersively
 def encode_into_cid(sbom):
 
-    for key in sbom:
-        if (isinstance(sbom[key], dict)):
-            sbom[key] = convert_object_to_cid(sbom[key])
+    if(isinstance(sbom, dict)):
+        for key in sbom:
+            if (isinstance(sbom[key], dict)):
+                sbom[key] = convert_object_to_cid(sbom[key])
 
-        elif (isinstance(sbom[key], list)):
-            list_of_element = []
-            for elem in sbom[key]:
-                list_of_element.append(convert_object_to_cid(elem))
-            sbom[key] = list_of_element
+            elif (isinstance(sbom[key], list)):
+                list_of_element = []
+                for elem in sbom[key]:
+                    list_of_element.append(convert_object_to_cid(elem))
+                sbom[key] = list_of_element
+    
+    elif(isinstance(sbom, list)):
+        list_of_cids = []
+        for elem in sbom:
+            list_of_cids.append(convert_object_to_cid(elem))
+        return list_of_cids
     return sbom
 
 def convert_object_to_cid(jsonData):
@@ -64,7 +71,7 @@ def convert_object_to_cid(jsonData):
         return list_of_cids
 
     elif (isinstance(jsonData, dict) and detect_inner_object(jsonData)):
-        logger.debug("++ inner_object found inside ++" + str(jsonData))
+        # logger.debug("++ inner_object found inside ++" + str(jsonData))
         for key in jsonData:
             if (isinstance(jsonData[key], dict)):
                 jsonData[key] = convert_object_to_cid(jsonData[key])
@@ -92,7 +99,7 @@ def convert_object_to_cid(jsonData):
 
 
 def detect_inner_object(jsonData):
-    logger.debug("++ traversing inside Object ++")
+    # logger.debug("++ traversing inside Object ++")
     for key in jsonData:
         
         if (isinstance(jsonData[key], dict) or isinstance(jsonData[key], list)):
@@ -103,21 +110,40 @@ def convert_to_dict(obj):
 
 
 # Unwrap nft data to actual nested Json Object
+
 def decode_into_json(sbom):
-    for key in sbom:
-        if (isinstance(sbom[key], str) and detect_nft(sbom[key]) != None):
-            sbom[key] = convert_cid_to_object(sbom[key])
+    if(isinstance(sbom, list)):
+        list_of_element = []
+        for each_obj in sbom:
+            list_of_element.append(decode_nft_helper(each_obj))
+        
+        return list_of_element
 
-        elif(isinstance(sbom[key], list)):
-            list_of_element = []
-            for maybe_cid in sbom[key]:
+    elif(isinstance(sbom, dict)):
+        return decode_nft_helper(sbom)
 
-                if(detect_nft(maybe_cid) != None):
-                    list_of_element.append(convert_cid_to_object(maybe_cid))
-                else:
-                    list_of_element.append(maybe_cid)
-            
-            sbom[key] = list_of_element
+    return sbom
+
+def decode_nft_helper(sbom):
+    if(isinstance(sbom, dict)):
+        for key in sbom:
+            if (isinstance(sbom[key], str) and detect_nft(sbom[key]) != None):
+                sbom[key] = convert_cid_to_object(sbom[key])
+
+            elif(isinstance(sbom[key], list)):
+                list_of_element = []
+                for maybe_cid in sbom[key]:
+
+                    if(detect_nft(maybe_cid) != None):
+                        list_of_element.append(convert_cid_to_object(maybe_cid))
+                    else:
+                        list_of_element.append(maybe_cid)
+                
+                sbom[key] = list_of_element
+
+    elif(isinstance(sbom, str) and detect_nft(sbom) != None):
+        return convert_cid_to_object(sbom)
+
     return sbom
 
 def convert_cid_to_object(cid):
@@ -127,8 +153,9 @@ def convert_cid_to_object(cid):
     fetched_cid_data = json.loads(fetched_cid)
     if(isinstance(fetched_cid_data, dict)):
         for key in fetched_cid_data:
-            logger.debug("detecting cids in --" + str(fetched_cid_data))
+            # logger.debug("detecting cids in --" + str(fetched_cid_data))
             if( isinstance(fetched_cid_data[key], str) and detect_nft(fetched_cid_data[key])):
+                # logger.debug("---- unwraping again inside ----"+ str(fetched_cid_data))
                 fetched_cid_data[key] = convert_cid_to_object(fetched_cid_data[key])
             elif(isinstance(fetched_cid_data[key], list)):
                 list_of_element = []

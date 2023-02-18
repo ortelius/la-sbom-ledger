@@ -1,11 +1,11 @@
 {
     "licenses": [
         {
-            "license": {
-                "name": "BSD-3-Clause"
-            },
+            "license": [1.0, 4556, 4],
             "abc": {
                 "xyz": "pqr"
+
+                
             },
             "repeate":{
                 "licenses": [
@@ -22,7 +22,8 @@
                 "abc": {
                     "xyz": "pqr"
                 }
-            }
+            },
+            "hash":"undefined"
         }
     ],
     "abc": {

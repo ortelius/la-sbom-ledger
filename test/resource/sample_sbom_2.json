@@ -1,32 +1,21 @@
-{
-        "licenses": [
-            {
-                "license": {
-                    "name": "BSD-3-Clause"
-                },
-                "repeate":{
-                        "licenses": [
-                            {
-                "abc": {
-                                    "xyz": "pqr"
+[
+    {
+      "Domain": {
+        "_key": 1, // values are 
+        "name": "GLOBAL"
+      }
+    },
+    {
+      "User": {
+        "_key": 1,
+        "name": "admin",
+        "domain": {
+          "_key": 1,
+          "name": "GLOBAL"
         },
-                                "license": {
-                                    "name": "BSD-3-Clause"
-                                }
-                                
-                            }
-                        ],
-                        "abc": {
-                            "xyz": "pqr"
-                        }
-                    },
-                "abc": {
-                    "xyz": "pqr"
-                }
-                
-}
-],
-        "abc": {
-            "xyz": "pqr"
-        }
+        "email": "admin@ortelius.io",
+        "phone": "505-444-5566",
+        "realname": "Ortelius Admin"
+      }
     }
+]

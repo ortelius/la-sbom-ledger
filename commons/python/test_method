@@ -1,0 +1,57 @@
+import unittest
+
+from utils import *
+from normalize_sbom import *
+
+
+f = open('./../../test/resource/sample_sbom.json')
+denormalized_data = json.load(f)
+normalized_data = ['ipfs://bafkreiccuf4qj2j7s2qcg2beit42nfdnnp73cqfuy2u6b4oeniha5uvyii', 'ipfs://bafkreibf62747enamobafanpj5dge7ohf4g4zhlcqfkxqfpvghvvfcusve']
+
+class TestStringMethods(unittest.TestCase):
+
+    def test_normalize(self):
+        normalized_data = encode_into_cid(denormalized_data)
+        print(normalized_data)
+        self.assertTrue(normalized_data != None)
+
+    def test_de_normalize(self):
+        unwrapped_data = decode_into_json(normalized_data)
+        print(unwrapped_data)
+        self.assertTrue(unwrapped_data != None)
+        self.assertEqual(denormalized_data, unwrapped_data)
+
+
+    def create_hash_code_after_sorting_key(self):
+        response_from_unsorted = save('../../test/resource/un_sorted_key_sbom.json', 'file')
+        print(response_from_unsorted)
+        self.assertTrue(response_from_unsorted['ok'])
+        
+        sorted_sbom = {'abc': {'xyz': 'pqr'}, 'licenses': [{'abc': {'xyz': 'pqr'}, 'hash': 'undefined', 'license': [1.0, 4, 4556], 'repeate': {'abc': {'xyz': 'pqr'}, 'licenses': [{'abc': {'xyz': 'pqr'}, 'license': {'name': 'BSD-3-Clause'}}]}}]}
+
+        response_from_sorted = save(sorted_sbom, 'json')
+        self.assertTrue(response_from_sorted['ok'])
+
+        self.assertEqual( response_from_unsorted['value']['cid'],  response_from_sorted['value']['cid'])
+
+
+    def get_data_from_cid(self):
+        response = getData("bafkreibcqaowdyb47fqzlsk5lsj74uhnu6gfqecpswv2m3kmw2cbkkq2be")
+        self.assertEqual(response, '{"licenses":[{"license":{"name":"BSD-3-Clause"}}]}')
+
+
+    def get_exception_when_saving_invalid_type_data(self):
+        response = save({}, 'xml')
+        self.assertRaises(Exception)
+
+    def get_minimized_data_sorted_by_key(self):
+        f = open('./../../test/resource/un_sorted_key_sbom.json')
+        data_1 = json.load(f)
+        parsedJsonString_1 = get_minimize_data(data_1)
+
+        expected_json = {"abc":{"xyz":"pqr"},"licenses":[{"abc":{"xyz":"pqr"},"hash":"undefined","license":[1.0,4,4556],"repeate":{"abc":{"xyz":"pqr"},"licenses":[{"abc":{"xyz":"pqr"},"license":{"name":"BSD-3-Clause"}}]}}]}
+
+        self.assertEqual(parsedJsonString_1, get_minimize_data(expected_json))
+
+if __name__ == '__main__':
+    unittest.main()
