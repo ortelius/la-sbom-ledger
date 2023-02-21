@@ -9,45 +9,13 @@ logger = logging.getLogger(__name__)
 
 coloredlogs.install(level='DEBUG')
 
-class Hashes(BaseModel):
-    alg: Optional[str] = None
-    content: Optional[str] = None
-
-class PackageDetailsNFT(BaseModel):
-    description: Optional[str] = None
-    modified: Optional[bool] = None
-    name: Optional[str] = None
-    publisher: Optional[str] = None
-    purl: Optional[str] = None
-    type: Optional[str] = None
-    vesion: Optional[str] = None
-    hashes: Optional[Hashes] = None
-    meta: Optional[dict] = None
-
-class LicenseNFT(BaseModel):
-    shortid: Optional[str] = None
-    fullname: Optional[str] = None
-    definitionurl: Optional[str] = None
-
-# This method will normalize sbom josn to create multiple json data and store them as NFTs.
-def normalize(json_data):
-    license = json_data["licenses"]
-
-    json_object = json.dumps(json_data, indent = 4) 
-    package_details = PackageDetailsNFT(**json.loads(json_object))
-
-    return {
-        "purl": json_data["purl"], 
-        "details": convert_object_to_cid(convert_to_dict(package_details)), 
-        "licenses": convert_object_to_cid(license)}
-
 
 # This method will wrap json object and store all the nested objects as NFT recersively
-def encode_into_cid(sbom):
+def normalize(sbom):
 
     if(isinstance(sbom, dict)):
         for key in sbom:
-            if (isinstance(sbom[key], dict)):
+            if ( isinstance(sbom[key], dict)):
                 sbom[key] = convert_object_to_cid(sbom[key])
 
             elif (isinstance(sbom[key], list)):
@@ -75,6 +43,7 @@ def convert_object_to_cid(jsonData):
         for key in jsonData:
             if (isinstance(jsonData[key], dict)):
                 jsonData[key] = convert_object_to_cid(jsonData[key])
+                get_clean_json(jsonData)
                 minified_json_element = get_minimize_data(jsonData)
                 response = save(minified_json_element, 'json')
                 return "ipfs://" + response['value']['cid']
@@ -84,11 +53,12 @@ def convert_object_to_cid(jsonData):
                 for elem in jsonData[key]:
                     list_of_element.append(convert_object_to_cid(elem))
                 jsonData[key] = list_of_element
-
+                get_clean_json(jsonData)
                 minified_json_element = get_minimize_data(jsonData)
                 response = save(minified_json_element, 'json')
                 return "ipfs://"+ response['value']['cid']
     elif(isinstance(jsonData, dict)):
+        get_clean_json(jsonData)
         minified_json_element = get_minimize_data(jsonData)
         response = save(minified_json_element, 'json')
         cid = response['value']['cid']
@@ -97,6 +67,8 @@ def convert_object_to_cid(jsonData):
     else:
         return jsonData
 
+def get_clean_json(json):
+    json.pop('_key', 'No Key found')
 
 def detect_inner_object(jsonData):
     # logger.debug("++ traversing inside Object ++")
@@ -111,7 +83,7 @@ def convert_to_dict(obj):
 
 # Unwrap nft data to actual nested Json Object
 
-def decode_into_json(sbom):
+def de_normalize(sbom):
     if(isinstance(sbom, list)):
         list_of_element = []
         for each_obj in sbom:
@@ -167,6 +139,7 @@ def convert_cid_to_object(cid):
                 
                 fetched_cid_data[key] = list_of_element
 
+    fetched_cid_data['_key'] = cid
     return fetched_cid_data
 
 ipfs_regex = r"^ipfs://Qm[1-9A-HJ-NP-Za-km-z]{44,}|^ipfs://b[A-Za-z2-7]{58,}|^ipfs://B[A-Z2-7]{58,}|^ipfs://z[1-9A-HJ-NP-Za-km-z]{48,}|^ipfs://F[0-9A-F]{50,}"

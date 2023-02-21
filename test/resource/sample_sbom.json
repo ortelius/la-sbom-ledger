@@ -1,21 +1,23 @@
 [
-    {
-      "Domain": {
-        "_key": 1, 
-        "name": "GLOBAL"
-      }
+  {
+    "Domain": {
+      "name": "GLOBAL",
+      "_key": "ipfs://bafkreih3vbybn5o55rg2pufeacphemhimjoltfrgtqicrngmem5k44cjqe"
     },
-    {
-      "User": {
-        "_key": 1,
-        "name": "admin",
-        "domain": {
-          "_key": 1,
-          "name": "GLOBAL"
-        },
-        "email": "admin@ortelius.io",
-        "phone": "505-444-5566",
-        "realname": "Ortelius Admin"
-      }
-    }
+    "_key": "ipfs://bafkreihcaehhl6k2ekd37dqaj6rqegdq5hcelr7ly4aupaenkqdm4wucfm"
+  },
+  {
+    "User": {
+      "domain": {
+        "name": "GLOBAL",
+        "_key": "ipfs://bafkreih3vbybn5o55rg2pufeacphemhimjoltfrgtqicrngmem5k44cjqe"
+      },
+      "email": "admin@ortelius.io",
+      "name": "admin",
+      "phone": "505-444-5566",
+      "realname": "Ortelius Admin",
+      "_key": "ipfs://bafkreiepv6y6qvhfzslcolhqranjhobppyke6seempeio2q5q5qauw4rc4"
+    },
+    "_key": "ipfs://bafkreiezkbcsvmmskosikhwfgot6reopiu5yvx5zyu6xdjtonf3rvotzui"
+  }
 ]
