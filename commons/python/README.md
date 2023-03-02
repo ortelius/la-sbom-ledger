@@ -156,3 +156,10 @@ Go inside the directory to run test
 
 Now run the test file
 `python .\nft_storage_utils_test.py`
+
+
+Run all test using
+`python .\test_method -v`
+
+Running individual test cases
+`python .\test_method TestStringMethods.test_de_normalize`

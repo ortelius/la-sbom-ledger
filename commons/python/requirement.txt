@@ -1,3 +1,4 @@
 pyyaml
 git+https://github.com/nftstorage/python-client.git
 requests
+coloredlogs

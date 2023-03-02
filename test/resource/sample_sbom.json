@@ -1,26 +1,23 @@
-{
-    "description": "Composable command line interface toolkit",
-    "hashes": [
-        {
-            "alg": "MD5",
-            "content": "b4233221cacc473acd422a1d54ff4c41"
-        },
-        {
-            "alg": "SHA-256",
-            "content": "dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
-        }
-    ],
-    "licenses": [
-        {
-            "license": {
-                "name": "BSD-3-Clause"
-            }
-        }
-    ],
-    "modified": false,
-    "name": "click",
-    "publisher": "",
-    "purl": "pkg:pypi/click@7.1.2",
-    "type": "library",
-    "version": "7.1.2"
-}
+[
+  {
+    "Domain": {
+      "name": "GLOBAL",
+      "_key": "ipfs://bafkreih3vbybn5o55rg2pufeacphemhimjoltfrgtqicrngmem5k44cjqe"
+    },
+    "_key": "ipfs://bafkreihcaehhl6k2ekd37dqaj6rqegdq5hcelr7ly4aupaenkqdm4wucfm"
+  },
+  {
+    "User": {
+      "domain": {
+        "name": "GLOBAL",
+        "_key": "ipfs://bafkreih3vbybn5o55rg2pufeacphemhimjoltfrgtqicrngmem5k44cjqe"
+      },
+      "email": "admin@ortelius.io",
+      "name": "admin",
+      "phone": "505-444-5566",
+      "realname": "Ortelius Admin",
+      "_key": "ipfs://bafkreiepv6y6qvhfzslcolhqranjhobppyke6seempeio2q5q5qauw4rc4"
+    },
+    "_key": "ipfs://bafkreiezkbcsvmmskosikhwfgot6reopiu5yvx5zyu6xdjtonf3rvotzui"
+  }
+]
