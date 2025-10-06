@@ -36,7 +36,7 @@
     "open": "^8.2.0",
     "prompt-sync": "^4.2.0",
     "ripple-lib": "^1.9.5",
-    "winston": "^3.3.3",
+    "winston": "^3.17.0",
     "xrpl": "^2.1.1",
     "xrpl-tagged-address-codec": "^0.2.1"
   },
