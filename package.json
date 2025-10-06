@@ -37,7 +37,7 @@
     "prompt-sync": "^4.2.0",
     "ripple-lib": "^1.9.5",
     "winston": "^3.3.3",
-    "xrpl": "^2.1.1",
+    "xrpl": "^2.14.3",
     "xrpl-tagged-address-codec": "^0.2.1"
   },
   "devDependencies": {
